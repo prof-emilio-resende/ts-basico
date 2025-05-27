@@ -2,6 +2,19 @@ import { verificaIdade, verificaDiaSemana } from "./condicionais";
 import { range, executarLoop } from "./loop";
 import { soma, fatorial } from "./recursividade";
 import { Pessoa, Estudante, Aluno } from "./objetos";
+import { Vehicle, AbstractVehicle, Car, Airplane } from "./oo_mid";
+import {
+    Status,
+    NumericId,
+    Named,
+    Aged,
+    Person,
+    Animal,
+    Fruit,
+    Apple,
+    FruitBasket,
+    FruitStore
+} from "./oo_advanced";
 
 const nome: string = "João";
 const idade: number = 30;
@@ -34,5 +47,20 @@ export {
     Pessoa,
     Estudante,
     Aluno,
+    Vehicle,
+    AbstractVehicle,
+    Car,
+    Airplane,
+    // Advanced OO exports
+    Status,
+    NumericId,
+    Named,
+    Aged,
+    Person,
+    Animal,
+    Fruit,
+    Apple,
+    FruitBasket,
+    FruitStore
 };
 // Exportando as variáveis para uso em outros módulos
